@@ -1,0 +1,19 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Wed Mar 15 10:57:01 2023"
+  rime_version: 1.5.3
+patch:
+  "style/color_scheme": dota_2
+  "style/font_point": 24
+  "style/horizontal": false
+  "style/inline_preedit": true
+  "style/layout/border": 0
+  "style/layout/candidate_spacing": 10
+  "style/layout/hilite_padding": 5
+  "style/layout/margin_x": 5
+  "style/layout/margin_y": 5
+  "style/layout/min_width": 0
+  "style/layout/round_corner": 0
+  us_keyboard_layout: true

@@ -24,8 +24,8 @@ patch:
       - { when: always, toggle: full_shape, accept: "Shift+space" } # [shift+空格] 切换全半角
       - { when: always, toggle: ascii_punct, accept: "Control+period" } # [ctrl+.] 切换中英文标点
       - { when: composing, send: Shift+Delete, accept: "Control+d" } # [ctrl+d] 删除自造词
-      - { when: composing, send: Page_Up, accept: "Control+p" } # 翻页
-      - { when: composing, send: Page_Down, accept: "Control+n" }
+      - { when: composing, send: Page_Up, accept: "-" } # 翻页
+      - { when: composing, send: Page_Down, accept: "=" }
       - { when: composing, send: Up, accept: "Control+k" } # 切换选中候选词
       - { when: composing, send: Down, accept: "Control+j" }
       - {accept: Tab, send: Down, when: composing}
